@@ -14,7 +14,7 @@ alert ("you have visited this site 4 times");
 // >>>>>>>>>>3.Declare a variable called birthYear & assign to it your 
 // birth year. Show the following message in your browser: >>>>>>>>
 var BirthYear = 2004;
-document .write("My Birth Year is 2004" + "<br/>" + "Data type of my declared variable is number");
+document .write("My Birth Year is 2004" + "<br/>" + "Data type of my declared variable is number <br/>");
 
 
 // >>>>>>4.A visitor visits an online clothing store 
@@ -25,8 +25,8 @@ document .write("My Birth Year is 2004" + "<br/>" + "Data type of my declared va
 // order 
 // Show the following message in your browser: “John 
 // Doe ordered 5 T-shirt(s) on XYZ Clothing store”. >>>>>>
-var VisitorName = "Naddiya Sheraz";
+var VisitorName = "John Doe";
 var ProductTitle = "T-shirts";
 var quantity = 5;
-document.write("<b>" + VisitorName + "</b>" + " " + "ordered" + " " + "<b>" +
-     quantity + "</b>" + " " + "<b>" + ProductTitle + "</b>" + " " + "on XYZ clothing store");
+document.write("<q>" + "<b>" + VisitorName + "</b>" + " " + "ordered" + " " + "<b>" +
+     quantity + "</b>" + " " + "<b>" + ProductTitle + "</b>" + " " + "on XYZ clothing store.</q>");
